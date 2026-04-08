@@ -16,7 +16,7 @@ An intelligent AI agent built using the OpenAI API, capable of understanding use
 
 ```bash
 uv init .
-uv add langgraph langchain python-dotenv langchain-openai
+uv add langgraph langchain python-dotenv langchain-openai os datetime requests
 uv run main.py
 ```
 
