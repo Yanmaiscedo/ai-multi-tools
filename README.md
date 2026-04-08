@@ -40,7 +40,7 @@ This project demonstrates practical implementations of AI in different domains.
 ## ⚙️ Setup
 
 ```bash
-git clone https://github.com/seu-usuario/ai-multi-tools.git
+git clone https://github.com/Yanmaiscedo/ai-multi-tools.git
 cd ai-multi-tools
 pip install -r requirements.txt
 ```
@@ -59,34 +59,12 @@ OPENAI_API_KEY=your_api_key_here
 
 ## ▶️ Usage
 
-Run each module(you can use bash or uv):
-- agent
-```bash
-cd agent
-python main.py
-```
-```uv
-cd agent
-uv run main.py
-```
-- pdf_reader
-```bash
-cd pdf_reader
-python main.py
-```
-```uv
-cd pdf_reader
-uv run streamlit run main.py
-```
-- image_analyzer
-```bash
-cd image_analyzer
-python main.py
-```
-```uv
-cd image_analyzer
-uv run streamlit run main.py
-```
+Each module has its own usage instructions:
+
+* [AI Agent](./agent/README.md) → Go to Agent README
+* [Image Analyzer](./image_analizer/README.md) → Go to Image Analyzer README
+* [PDF Reader](./pdf_reader/README.md) → Go to PDF Reader README   
+
 
 ---
 
