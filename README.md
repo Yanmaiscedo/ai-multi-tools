@@ -1,29 +1,54 @@
 # 🚀 AI Multi Tools
 
-A collection of AI-powered applications built using the OpenAI API.
-This project demonstrates practical implementations of AI in different domains.
+A comprehensive collection of AI-powered applications, ranging from standalone tools to a fully integrated AI platform.
+This repository demonstrates practical implementations of modern AI using both OpenAI and Gemini APIs.
 
 ---
 
-## 🧠 Features
+## 🧠 Projects Overview
 
-### 🤖 AI Agent
+### 🔹 1. Simple AI Modules (OpenAI)
+
+Located in `/3-Simple-AIs/`
+
+#### 🤖 AI Agent
+
+👉 [View documentation](./3-Simple-AIs/agent/README.md)
 
 * Conversational agent
-* Task execution
-* Prompt-based reasoning
+* Task execution with tools
+* Prompt-based reasoning (ReAct pattern)
 
-### 📄 PDF Reader
+#### 📄 PDF Reader
+
+👉 [View documentation](./3-Simple-AIs/pdf_reader/README.md)
 
 * Extracts and analyzes PDF content
 * Summarization
 * Question answering
 
-### 🖼️ Image Analyzer
+#### 🖼️ Image Analyzer
+
+👉 [View documentation](./3-Simple-AIs/image_analizer/README.md)
 
 * Image understanding
-* Description generation
+* Object classification
 * Visual content analysis
+
+---
+
+### 🔹 2. AI Platform (Gemini)
+
+Located in `/ai-platform/`
+
+👉 [View platform documentation](./ai-platform/README.md)
+
+A unified AI system that integrates multiple capabilities into a single application:
+
+* 🤖 Chat Agent with memory
+* 📄 Multi-document analyzer (PDF + TXT)
+* 🖼️ Multi-image analyzer
+* 🎯 Prompt templates (summary, critique, key points, etc.)
 
 ---
 
@@ -31,8 +56,10 @@ This project demonstrates practical implementations of AI in different domains.
 
 * Python
 * OpenAI API
-* LangChain / LangGraph *(if used)*
-* PyPDF / pdfplumber
+* Gemini API
+* LangChain / LangGraph
+* Streamlit
+* PyPDF2 / pdfplumber
 * PIL / OpenCV
 
 ---
@@ -52,38 +79,46 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```env
-OPENAI_API_KEY=your_api_key_here
+OPENAI_API_KEY=your_openai_key_here
+GEMINI_API_KEY=your_gemini_key_here
 ```
 
 ---
 
 ## ▶️ Usage
 
-Each module has its own usage instructions:
+Each project has its own instructions:
 
-* [AI Agent](/3-Simple-AIs/agent/README.md) → Go to Agent README
-* [Image Analyzer](/3-Simple-AIs/image_analizer/README.md) → Go to Image Analyzer README
-* [PDF Reader](/3-Simple-AIs/pdf_reader/) → Go to PDF Reader README   
+### 🔹 Simple AIs
 
+* 🤖 [AI Agent](./3-Simple-AIs/agent/README.md)
+* 📄 [PDF Reader](./3-Simple-AIs/pdf_reader/README.md)
+* 🖼️ [Image Analyzer](./3-Simple-AIs/image_analizer/README.md)
+
+### 🔹 AI Platform
+
+* 🚀 [Run AI Platform](./ai-platform/README.md)
 
 ---
 
 ## 📌 Project Purpose
 
-This project was developed to practice and demonstrate:
+This repository was developed to demonstrate:
 
-* AI integration with APIs
-* Real-world use cases
-* Modular system design
+* AI integration with multiple APIs
+* Modular and scalable system design
+* Real-world AI applications
+* Multimodal AI (text, documents, and images)
 
 ---
 
 ## 📈 Future Improvements
 
-* Web interface (Streamlit or React)
-* API deployment
+* API version (FastAPI)
+* Persistent memory (database)
+* Authentication system
+* Deployment (Streamlit Cloud / Render)
 * Multi-agent orchestration
-* Memory system
 
 ---
 
