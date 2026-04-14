@@ -61,9 +61,9 @@ OPENAI_API_KEY=your_api_key_here
 
 Each module has its own usage instructions:
 
-* [AI Agent](./agent/README.md) → Go to Agent README
-* [Image Analyzer](./image_analizer/README.md) → Go to Image Analyzer README
-* [PDF Reader](./pdf_reader/README.md) → Go to PDF Reader README   
+* [AI Agent](/3-Simple-AIs/agent/README.md) → Go to Agent README
+* [Image Analyzer](/3-Simple-AIs/image_analizer/README.md) → Go to Image Analyzer README
+* [PDF Reader](/3-Simple-AIs/pdf_reader/) → Go to PDF Reader README   
 
 
 ---
