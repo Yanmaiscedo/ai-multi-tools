@@ -1,7 +1,8 @@
 # 🚀 AI Multi Tools
 
-A comprehensive collection of AI-powered applications, ranging from standalone tools to a fully integrated AI platform.
-This repository demonstrates practical implementations of modern AI using both OpenAI and Gemini APIs.
+A comprehensive collection of AI-powered applications, ranging from standalone tools to fully integrated AI platforms.
+
+This repository demonstrates practical implementations of modern AI using **multiple providers**, including OpenAI and Gemini APIs.
 
 ---
 
@@ -37,18 +38,33 @@ Located in `/3-Simple-AIs/`
 
 ---
 
-### 🔹 2. AI Platform (Gemini)
+## 🚀 AI Platforms
 
-Located in `/ai-platform/`
+### 🔹 2. OpenAI Platform
 
-👉 [View platform documentation](./ai-platform/README.md)
+Located in `/openai-api/`
+👉 [View documentation](./openai-api/README.md)
 
-A unified AI system that integrates multiple capabilities into a single application:
+A unified AI system powered by OpenAI:
 
 * 🤖 Chat Agent with memory
 * 📄 Multi-document analyzer (PDF + TXT)
-* 🖼️ Multi-image analyzer
-* 🎯 Prompt templates (summary, critique, key points, etc.)
+* 🖼️ Image analyzer (Vision with base64)
+* 🎯 Prompt templates (summary, critique, key points)
+
+---
+
+### 🔹 3. Gemini Platform
+
+Located in `/gemini-api/`
+👉 [View documentation](./gemini-api/README.md)
+
+A multimodal AI platform powered by Gemini:
+
+* 🤖 Chat Agent
+* 📄 Document analysis
+* 🖼️ Native multimodal image understanding
+* ⚡ Fast response generation
 
 ---
 
@@ -95,9 +111,10 @@ Each project has its own instructions:
 * 📄 [PDF Reader](./3-Simple-AIs/pdf_reader/README.md)
 * 🖼️ [Image Analyzer](./3-Simple-AIs/image_analizer/README.md)
 
-### 🔹 AI Platform
+### 🔹 AI Platforms
 
-* 🚀 [Run AI Platform](./ai-platform/README.md)
+* 🚀 [OpenAI Platform](./openai-api/README.md)
+* 🚀 [Gemini Platform](./gemini-api/README.md)
 
 ---
 
@@ -105,10 +122,11 @@ Each project has its own instructions:
 
 This repository was developed to demonstrate:
 
-* AI integration with multiple APIs
+* AI integration with multiple providers (OpenAI & Gemini)
 * Modular and scalable system design
 * Real-world AI applications
 * Multimodal AI (text, documents, and images)
+* Comparison between different AI APIs
 
 ---
 
