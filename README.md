@@ -43,7 +43,7 @@ Located in `/3-Simple-AIs/`
 ### 🔹 2. OpenAI Platform
 
 Located in `/openai-api/`
-👉 [View documentation](./openai-api/README.md)
+👉 [View documentation](./ai-platform/openai-api/README.md)
 
 A unified AI system powered by OpenAI:
 
@@ -57,7 +57,7 @@ A unified AI system powered by OpenAI:
 ### 🔹 3. Gemini Platform
 
 Located in `/gemini-api/`
-👉 [View documentation](./gemini-api/README.md)
+👉 [View documentation](./ai-platform/gemini-api/README.md)
 
 A multimodal AI platform powered by Gemini:
 
