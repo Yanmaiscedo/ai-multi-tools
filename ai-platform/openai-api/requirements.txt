@@ -1,0 +1,17 @@
+# Core
+python-dotenv
+
+# OpenAI
+openai
+
+# UI
+streamlit
+
+# Document processing
+PyPDF2
+
+# Image processing
+pillow
+
+# Optional (recomendado)
+pandas
