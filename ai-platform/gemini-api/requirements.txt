@@ -1,0 +1,17 @@
+# Core
+python-dotenv
+
+# Gemini (nova SDK)
+google-genai
+
+# UI
+streamlit
+
+# Document processing
+PyPDF2
+
+# Image processing
+pillow
+
+# Optional
+pandas
