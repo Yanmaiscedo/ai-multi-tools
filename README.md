@@ -38,33 +38,17 @@ Located in `/3-Simple-AIs/`
 
 ---
 
-## 🚀 AI Platforms
+### 🔹 2. 🚀 AI Platforms
 
-### 🔹 2. OpenAI Platform
-
-Located in `/openai-api/`
+Located in `/ai-platform/`
 👉 [View documentation](./ai-platform/openai-api/README.md)
 
-A unified AI system powered by OpenAI:
+2 unified AI systems powered by Gemini and OpenAI APIs:
 
 * 🤖 Chat Agent with memory
 * 📄 Multi-document analyzer (PDF + TXT)
 * 🖼️ Image analyzer (Vision with base64)
 * 🎯 Prompt templates (summary, critique, key points)
-
----
-
-### 🔹 3. Gemini Platform
-
-Located in `/gemini-api/`
-👉 [View documentation](./ai-platform/gemini-api/README.md)
-
-A multimodal AI platform powered by Gemini:
-
-* 🤖 Chat Agent
-* 📄 Document analysis
-* 🖼️ Native multimodal image understanding
-* ⚡ Fast response generation
 
 ---
 
@@ -86,6 +70,12 @@ A multimodal AI platform powered by Gemini:
 git clone https://github.com/Yanmaiscedo/ai-multi-tools.git
 cd ai-multi-tools
 pip install -r requirements.txt
+```
+You can use UV if you want:
+```bash
+git clone https://github.com/Yanmaiscedo/ai-multi-tools.git
+cd ai-multi-tools
+uv pip install -r requirements.txt
 ```
 
 ---
