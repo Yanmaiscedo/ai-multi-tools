@@ -1,0 +1,32 @@
+# Core
+python-dotenv
+
+# OpenAI
+openai
+
+# Gemini
+google-generativeai
+
+# LangChain / Agents
+langchain
+langchain-core
+langchain-openai
+langgraph
+
+# Web / UI
+streamlit
+
+# PDF Processing
+PyPDF2
+pdfplumber
+
+# Image Processing
+pillow
+opencv-python
+
+# Data (opcional, usado em alguns módulos)
+pandas
+numpy
+
+# HTTP requests (para tools futuras)
+requests
