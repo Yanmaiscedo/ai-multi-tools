@@ -51,6 +51,12 @@ git clone https://github.com/Yanmaiscedo/ai-multi-tools.git
 cd ai-multi-tools/openai-api
 pip install -r requirements.txt
 ```
+You can use UV if you want:
+```bash
+git clone https://github.com/Yanmaiscedo/ai-multi-tools.git
+cd ai-multi-tools/openai-api
+uv sync
+```
 
 ---
 
@@ -67,7 +73,11 @@ OPENAI_API_KEY=your_api_key_here
 ## ▶️ Run the Application
 
 ```bash
-streamlit run app.py
+streamlit run main.py
+```
+You can use UV if you want:
+```bash
+uv run streamlit run main.py
 ```
 
 ---
